@@ -20,3 +20,64 @@ function distFromAvarage(tab) {
 }
 
 distFromAvarage([1, 2, 3, 4, 5, 6, 7]);
+
+// // zad. 1
+
+function myFavouriteFruits() {
+    let tab = ["banan", "kiwi", "mango"];
+    console.log(tab[0]);
+    console.log(tab[tab.lenght - 1]);
+    for (let i = 0; i < tab.length; i++) {
+        console.log(tab[i]);
+
+    }
+}
+
+
+
+// zad. 3
+
+function printTable(array) {
+    for (let x = 0; x < array.length; x++) {
+
+        console.log(array[x]);
+
+    }
+
+
+}
+
+printTable([1, 2, 3, 4]);
+
+// zad. 4
+
+function multiply(array) {
+    var finally = 1;
+    for (let x = 0; x < array.length; x++) {
+        finally = finally * array[x];
+
+    }
+
+    console.log(finally);
+}
+multiply([1, 2, 3, 4]);
+
+// zad. 5
+
+function getEvenAverage(arr) {
+    let sum = 0;
+    let found = 0;
+    for (let i of arr) {
+        if (i % 2 == 0) {
+            sum += i;
+            found++;
+
+        }
+    }
+
+    const avg = sum / found;
+    console.log(found == 0 ? null : avg);
+    return found == 0 ? null : avg;
+
+
+}
