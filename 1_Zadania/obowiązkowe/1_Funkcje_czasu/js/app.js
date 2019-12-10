@@ -11,5 +11,3 @@ function countHello(num) {
 
 }
 countHello(4);
-
-//test
