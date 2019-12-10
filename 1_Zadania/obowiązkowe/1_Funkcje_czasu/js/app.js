@@ -1,6 +1,6 @@
 function countHello(num) {
     var counter = 1;
-    var intervalID = setInterval(()=>{
+    var intervalID = setInterval(() => {
         console.log('Hello' + counter++);
 
         if (counter == num) {
@@ -11,3 +11,5 @@ function countHello(num) {
 
 }
 countHello(4);
+
+//test
