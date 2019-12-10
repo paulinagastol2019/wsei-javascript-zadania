@@ -34,7 +34,6 @@ function myFavouriteFruits() {
 }
 
 
-
 // zad. 3
 
 function printTable(array) {
@@ -51,27 +50,31 @@ printTable([1, 2, 3, 4]);
 
 // zad. 4
 
-function multiply(array) {
-    var finally = 1;
-    for (let x = 0; x < array.length; x++) {
-        finally = finally * array[x];
-
+function multiply(array) 
+{
+    var y = 1;
+    for (let x = 0; x < array.length; x++) 
+    {
+        y = y*array[x];
     }
 
-    console.log(finally);
+    console.log(y);
 }
 multiply([1, 2, 3, 4]);
 
 // zad. 5
 
-function getEvenAverage(arr) {
+function getEvenAverage(arr) 
+{
     let sum = 0;
     let found = 0;
-    for (let i of arr) {
-        if (i % 2 == 0) {
+    
+    for (let i of arr) 
+    {
+        if (i % 2 == 0) 
+        {
             sum += i;
             found++;
-
         }
     }
 
@@ -80,4 +83,10 @@ function getEvenAverage(arr) {
     return found == 0 ? null : avg;
 
 
+}
+
+// zad. 6
+
+function sortArray {
+    
 }
