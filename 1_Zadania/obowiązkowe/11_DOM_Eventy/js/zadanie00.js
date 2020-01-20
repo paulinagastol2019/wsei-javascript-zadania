@@ -1,4 +1,4 @@
-//zadanie 0a
+// zad. 0a
 
 let parents =document.querySelectorAll('.parent');
 parents.forEach( e => e.addEventListener)
@@ -21,3 +21,5 @@ function addEvents(element) {
         this.children[0].style.display = 'none';
     })
 }
+
+// zad. 0b

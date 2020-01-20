@@ -1,3 +1,5 @@
+// zad. 5
+
 var animals = [
     {
         type: "cat",

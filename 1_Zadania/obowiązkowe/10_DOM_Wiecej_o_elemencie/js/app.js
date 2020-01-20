@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
      */
 
 
-// zadanie 0
+// zad. 0
 
 const elements = document.querySelectorAll('.ex5 li');
 for (let i=0; i<elements.length; i++){
@@ -21,7 +21,7 @@ for (let i=0; i<elements.length; i++){
 
 }
 
-// zadanie 1
+// zad. 1
 
 let chromeElement = document.querySelector('.chrome');
 let edgeElement = document.querySelector('.edge');
@@ -32,7 +32,7 @@ firefoxElement.style.backgroundImage ='.url(../assets/img/firefox.png)';
 
 chromeElement.style.width = '100px'; 
 
-//zadanie 2
+// zad. 2
 
 let name = document.querySelector('.name');
 let color = document.querySelector('#fav_color');
@@ -48,4 +48,9 @@ ex3.querySelector('ul').classList.add('menu');
 let ex3=document.querySelector
 
 
-}}
+});
+
+// zad. 3
+
+
+// zad. 4

@@ -1,3 +1,5 @@
+// zad. 4
+
 var movie = {
     director: "Peter Jackson",
     writers: [" J.R.R. Tolkien ", "Fran Walsh", "Philippa Boyens", "Peter Jackson"],

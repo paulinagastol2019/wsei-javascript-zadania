@@ -1,13 +1,13 @@
-function countHello(num) {
-    var counter = 1;
-    var intervalID = setInterval(() => {
-        console.log('Hello' + counter++);
+    const countHello = function(number) {
+            var counter = 1;
 
-        if (counter == num) {
-            clearInterval(intervalId);
+            var intervalID = setInterval(() => {
+            console.log('Hello' + counter++);
+
+                if (counter == number) {
+                    clearInterval(intervalID);
+                }
+            }, 500);
+
         }
-        counter++;
-    }, 500);
-
-}
-countHello(4);
+        countHello(4);
