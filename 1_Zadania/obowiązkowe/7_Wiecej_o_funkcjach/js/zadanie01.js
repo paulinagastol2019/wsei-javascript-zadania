@@ -5,21 +5,21 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+// utorzenie funkcji o nazwie sortArray, która nie przyjmuje agrumentów
 function sortArray() {
 
-    //Twoj komentarz ...
+    // utorzenie tablicy oraz przypisanie do niej początkowych wartości
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    // sortowanie tablicy przy użyciu funkcji porównującej
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        // porównanie dwóch liczb poprzez odejmowanie i zwrócenie wyniku
         return a - b;
     });
 
-    //Twoj komentarz ...
+    //zwraca posortowaną tablicę
     return points;
 }
 
-//Twoj komentarz ...
+// wywołanie funkcji 'sortArray()'
 sortArray();

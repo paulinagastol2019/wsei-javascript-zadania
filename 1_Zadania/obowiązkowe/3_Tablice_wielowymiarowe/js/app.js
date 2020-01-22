@@ -71,7 +71,7 @@
 
     // zad. 3
 
-    function print2dArray(arr) {
+    function print2DArray(arr) {
         for (let i = 0; i < arr.length; i++) {
             for (let j = 0; j < arr[i].length; j++) {
                 console.log(arr[i][j]);
@@ -82,7 +82,7 @@
     // zad. 4
 
     let arr = [[1,2], [3,4], [5,6]];
-    print2dArray(arr);
+    print2DArray(arr);
 
 
     // zad. 5

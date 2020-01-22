@@ -25,7 +25,10 @@
     };
 
 
-    let robot1 = new Robot("Leszek");
+    let robot1 = new Robot("Ola");
     robot1.sayHi("Andrzej");
     robot1.changeName("Paulina");
     robot1.fixIt();
+
+
+    
